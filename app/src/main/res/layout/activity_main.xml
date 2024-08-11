@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/marvelBlack">
+
+    <TextView
+        android:id="@+id/questionText"
+        style="@style/TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess the Marvel Movie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/movieImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@id/questionText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="Movie Image"/>
+
+    <EditText
+        android:id="@+id/answerInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Your Answer"
+        android:textColor="@color/marvelWhite"
+        android:backgroundTint="@color/marvelWhite"
+        android:layout_below="@id/movieImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/bebas_neue"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        style="@style/MarvelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/answerInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/resultText"
+        style="@style/ResultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/submitButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/timerText"
+        style="@style/TimerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time left: 15"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

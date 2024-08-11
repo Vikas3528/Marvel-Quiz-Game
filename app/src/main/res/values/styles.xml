@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/marvelRed</item>
+        <item name="android:colorPrimaryDark">@color/marvelBlack</item>
+        <item name="android:colorAccent">@color/marvelRed</item>
+    </style>
+
+    <!-- Text Style for Title -->
+    <style name="TitleText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/marvelWhite</item>
+        <item name="android:fontFamily">@font/bebas_neue</item>
+    </style>
+
+    <!-- Text Style for Timer -->
+    <style name="TimerText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/timerRed</item>
+        <item name="android:fontFamily">@font/bebas_neue</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="MarvelButton">
+        <item name="android:backgroundTint">@color/marvelRed</item>
+        <item name="android:textColor">@color/marvelWhite</item>
+        <item name="android:fontFamily">@font/bebas_neue</item>
+    </style>
+
+    <!-- Result Text Style -->
+    <style name="ResultText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/bebas_neue</item>
+    </style>
+
+</resources>

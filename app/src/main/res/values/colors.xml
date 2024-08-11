@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="marvelRed">#ED1D24</color>
+    <color name="marvelBlack">#1A1A1A</color>
+    <color name="marvelWhite">#FFFFFF</color>
+    <color name="timerRed">#FF6347</color>
+    <color name="correctGreen">#00FF00</color>
+    <color name="incorrectRed">#FF0000</color>
+</resources>
